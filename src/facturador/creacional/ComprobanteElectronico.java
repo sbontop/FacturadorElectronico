@@ -26,11 +26,11 @@ public class ComprobanteElectronico {
         this.nombreCliente = nombreCliente;
         this.codigo = codigo;
         this.fecha = fecha;
-        this.detallesEmisor = new LinkedList<>();
+        this.detallesEmisor = new LinkedList<String>();
     }
 
     public ComprobanteElectronico() {
-        this.detallesEmisor = new LinkedList<>();
+        this.detallesEmisor = new LinkedList<String>();
     }
 
     public List<String> getDetallesEmisor() {
